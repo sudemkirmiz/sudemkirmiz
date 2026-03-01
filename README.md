@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Sudem! 🚀</h1>
+<h1 align="center">Hi, I'm Sudem! </h1>
 <h3 align="center">3rd-Year Computer Engineering Student | AI Developer | NLP Enthusiast</h3>
 
 <p align="center">
