@@ -1,32 +1,60 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-label="Soft lilac and pink closing accent">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="85"
+     viewBox="0 0 1200 85"
+     role="img"
+     aria-label="Sudem GitHub footer">
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E8DEF8"/>
-      <stop offset=".52" stop-color="#F5DEEB"/>
-      <stop offset="1" stop-color="#E7DDF4"/>
+      <stop offset="0%" stop-color="#E9DEF3"/>
+      <stop offset="52%" stop-color="#F4DCE8"/>
+      <stop offset="100%" stop-color="#E8DCF2"/>
+    </linearGradient>
+
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#BAA0D4"/>
+      <stop offset="50%" stop-color="#D8B7D9"/>
+      <stop offset="100%" stop-color="#AE94CB"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="86" fill="url(#bg)"/>
+  <!-- Rounded transparent upper edge -->
+  <path d="M0 43
+           C170 8, 320 8, 490 39
+           C660 70, 820 69, 980 37
+           C1080 16, 1145 18, 1200 29
+           L1200 85 L0 85 Z"
+        fill="url(#bg)"/>
 
-  <!-- Binary details -->
-  <g fill="#786589" font-family="Consolas, monospace"
-     font-size="13" letter-spacing="3" opacity=".22">
-    <text x="45" y="32">0110 1001</text>
-    <text x="1022" y="60">1010 0110</text>
+  <!-- Soft second wave -->
+  <path d="M0 61
+           C190 29, 340 34, 505 58
+           C680 83, 825 78, 985 53
+           C1090 37, 1155 43, 1200 49
+           L1200 85 L0 85 Z"
+        fill="url(#wave)"
+        opacity="0.32"/>
+
+  <!-- Subtle animated binary -->
+  <g fill="#756487"
+     font-family="Consolas, monospace"
+     font-size="12"
+     letter-spacing="3"
+     opacity="0.20">
+
+    <text x="105" y="67">0101 1010
+      <animate attributeName="opacity"
+               values="0.15;0.45;0.15"
+               dur="8s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="1010" y="69">1010 0101
+      <animate attributeName="opacity"
+               values="0.4;0.12;0.4"
+               dur="10s"
+               repeatCount="indefinite"/>
+    </text>
   </g>
-
-  <!-- Circuit lines -->
-  <g stroke="#967FAB" stroke-width="1.4" fill="none" opacity=".28">
-    <path d="M0 65 H184 V43 H268"/>
-    <circle cx="268" cy="43" r="3"/>
-    <path d="M1200 19 H1070 V41 H960"/>
-    <circle cx="960" cy="41" r="3"/>
-  </g>
-
-  <!-- Minimal accent -->
-  <path d="M0 5 C260 24 420 9 600 17 S980 18 1200 7"
-        fill="none" stroke="#BDA5CF"
-        stroke-opacity=".48" stroke-width="2"/>
 </svg>
