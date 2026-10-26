@@ -1,6 +1,5 @@
-
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 234" width="1200" height="234" role="img" aria-label="Sudem Kırmız">
+  <img src="https://raw.githubusercontent.com/sudemkirmiz/sudemkirmiz/main/assets/sudem-github-banner.svg?v=7" width="100%" alt="Sudem Kırmız Banner" />
 </p>
 
 <p align="center">
@@ -64,5 +63,5 @@
 </p>
 
 <p align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 26 1200 144" width="1200" height="144" role="img" aria-label="Footer">
+  <img src="https://raw.githubusercontent.com/sudemkirmiz/sudemkirmiz/main/assets/assets/sudem-github-footer.svg?v=3" width="100%" alt="Decorative Footer"/>
 </p>
