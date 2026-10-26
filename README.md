@@ -22,8 +22,7 @@ Fourth-year Computer Engineering student at **Bursa Uludağ University**, intere
 
 ### Currently
 
-**TOFAŞ** · Long-Term Software Engineering Intern  
-Java · Spring Boot · .NET · Angular
+**TOFAŞ** · Software Engineering Intern  
 
 **TÜBİTAK 2247-C STAR** · Undergraduate Research Scholar  
 Turkish NLP · Ankara Dialect Transcription · BilgeBot
@@ -32,9 +31,7 @@ Turkish NLP · Ankara Dialect Transcription · BilgeBot
 ML–LLM · Prompt Injection · SOC Decision Support
 
 **BUU AI Community** · Organizing AI & technology events
-
 <br>
-
 ### Tech Stack
 
 **Languages**  
