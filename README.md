@@ -1,7 +1,8 @@
 
+
 <div align="center">
-  
-# Sudem Kırmız
+  <img src="./assets/sudem-github-banner.svg" width="100%" alt="Sudem Kırmız" />
+</div>
 
 **Computer Engineering Student**
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1200&color=79A8F8&center=true&vCenter=true&width=550&height=45&lines=Exploring+AI+%26+NLP;Learning+Through+Research+%26+Code;Building+Intelligent+Applications" alt="Typing animation" />
