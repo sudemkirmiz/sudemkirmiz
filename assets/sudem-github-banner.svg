@@ -1,50 +1,69 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Sudem Kırmız — soft lilac engineering banner">
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#E9D5F6"/>
-      <stop offset="50%" stop-color="#F3D6E8"/>
-      <stop offset="100%" stop-color="#E6C8E5"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8DEF8"/>
+      <stop offset="0.52" stop-color="#F5DEEB"/>
+      <stop offset="1" stop-color="#E7DDF4"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#B9A5D5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#B9A5D5" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#B9A5D5" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="240" fill="url(#background)"/>
+  <rect width="1200" height="210" fill="url(#bg)"/>
 
-  <!-- Subtle binary details -->
-  <g font-family="monospace" font-size="20" fill="#675879" opacity="0.20">
-    <text x="60" y="50">01001101</text>
-    <text x="75" y="190">10110100</text>
-    <text x="990" y="55">11001010</text>
-    <text x="1010" y="195">00110101</text>
-    <text x="330" y="40">0101</text>
-    <text x="830" y="210">1010</text>
+  <!-- Animated binary details -->
+  <g fill="#786589" font-family="Consolas, 'Courier New', monospace" font-size="17" letter-spacing="3" opacity=".19">
+    <g>
+      <text x="75" y="46">01001101</text>
+      <text x="115" y="166">10110100</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="9s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <text x="968" y="49">11001010</text>
+      <text x="975" y="164">00110101</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g opacity=".55">
+      <text x="300" y="32">01</text>
+      <text x="858" y="190">10</text>
+    </g>
   </g>
 
-  <!-- Minimal circuit details -->
-  <g stroke="#80678F" stroke-width="1.5" fill="none" opacity="0.23">
-    <path d="M0 115 H160 V85 H260"/>
-    <circle cx="260" cy="85" r="4"/>
-    <path d="M1200 125 H1040 V155 H940"/>
-    <circle cx="940" cy="155" r="4"/>
-    <path d="M100 240 V205 H235"/>
-    <circle cx="235" cy="205" r="4"/>
-    <path d="M1100 0 V35 H980"/>
-    <circle cx="980" cy="35" r="4"/>
+  <!-- Circuit pattern -->
+  <g fill="none" stroke="#967FAB" stroke-width="1.5" opacity=".25">
+    <path d="M0 97 H142 V76 H242"/>
+    <circle cx="242" cy="76" r="3" fill="#967FAB"/>
+    <path d="M1200 110 H1058 V135 H963"/>
+    <circle cx="963" cy="135" r="3" fill="#967FAB"/>
+    <path d="M93 210 V184 H218"/>
+    <circle cx="218" cy="184" r="3" fill="#967FAB"/>
+    <path d="M1100 0 V28 H995"/>
+    <circle cx="995" cy="28" r="3" fill="#967FAB"/>
   </g>
 
-  <!-- Main name -->
-  <text x="600" y="132"
-        text-anchor="middle"
+  <!-- Moving circuit highlights -->
+  <g fill="#8F6AB5" opacity=".5">
+    <circle r="3" cx="0" cy="0">
+      <animateMotion path="M0 97 H142 V76 H242" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" cx="0" cy="0">
+      <animateMotion path="M1200 110 H1058 V135 H963" dur="11s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Name -->
+  <text x="600" y="124"
         font-family="Georgia, 'Times New Roman', serif"
-        font-size="59"
+        font-size="62"
         font-weight="700"
-        letter-spacing="1"
-        fill="#252333">
-    Sudem Kırmız
-  </text>
+        text-anchor="middle"
+        fill="#272536"
+        letter-spacing=".6">Sudem Kırmız</text>
 
-  <!-- Bottom accent -->
-  <path d="M0 230 Q300 217 600 230 T1200 227"
-        fill="none" stroke="#A88DBB"
-        stroke-width="2" opacity="0.32"/>
+  <path d="M0 197 Q300 189 600 197 T1200 197"
+        stroke="url(#edge)" stroke-width="2" fill="none"/>
 </svg>
