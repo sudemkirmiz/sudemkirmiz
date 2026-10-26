@@ -56,3 +56,8 @@ ML–LLM · Prompt Injection · SOC Decision Support
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
+
+<br>
+<div align="center">
+  <img src="./assets/sudem-github-footer.svg" width="100%" alt="Decorative footer" />
+</div>
