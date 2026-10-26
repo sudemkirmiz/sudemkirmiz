@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Sudem Kırmız animated banner">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="135" viewBox="0 0 1200 135" role="img" aria-label="Sudem Kırmız animated engineering banner">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E9DEF3"/>
@@ -6,100 +7,82 @@
       <stop offset="100%" stop-color="#E8DCF2"/>
     </linearGradient>
 
-    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B696D1" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#8F6AB5" stop-opacity="0.42"/>
-    </linearGradient>
-
-    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8C63B1" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#6D4F93" stop-opacity="0.42"/>
-    </linearGradient>
+    <clipPath id="canvas">
+      <path d="M0 0 H1200 V109 C1000 118 835 134 600 132 C360 130 188 116 0 109 Z"/>
+    </clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="170" fill="url(#bg)"/>
+  <g clip-path="url(#canvas)">
+    <rect width="1200" height="135" fill="url(#bg)"/>
 
-  <!-- Animated binary -->
-  <g fill="#8B7A9B" font-family="Consolas, 'Courier New', monospace" font-size="15" letter-spacing="2.5" opacity="0.22">
-    <g>
-      <text x="78" y="34">01001101</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 5; 0 0" dur="7s" repeatCount="indefinite"/>
+    <!-- Animated binary details -->
+    <g fill="#8B7A9B" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="2.5" opacity=".21">
+      <g>
+        <text x="78" y="27">01001101</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="7s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="120" y="105">10110100</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="8.5s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="997" y="27">11001010</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 6;0 0" dur="9s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="969" y="101">00110101</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="7.8s" repeatCount="indefinite"/>
+      </g>
+      <g opacity=".42">
+        <text x="304" y="20">01</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 0" dur="6s" repeatCount="indefinite"/>
+      </g>
+      <g opacity=".42">
+        <text x="862" y="105">10</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-3 0;0 0" dur="6.8s" repeatCount="indefinite"/>
+      </g>
     </g>
-    <g>
-      <text x="114" y="122">10110100</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="8.5s" repeatCount="indefinite"/>
+
+    <!-- Circuit lines -->
+    <g stroke="#A18CB6" stroke-width="1.4" fill="none" opacity=".30">
+      <path d="M0 63 H146 V45 H240"/>
+      <path d="M1200 64 H1066 V87 H970"/>
+      <path d="M87 135 V113 H208"/>
+      <path d="M1100 0 V17 H992"/>
     </g>
-    <g>
-      <text x="998" y="32">11001010</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 6; 0 0" dur="9s" repeatCount="indefinite"/>
+
+    <!-- Circuit points -->
+    <g fill="#9A82B2" opacity=".55">
+      <circle cx="240" cy="45" r="2.5"/>
+      <circle cx="970" cy="87" r="2.5"/>
+      <circle cx="208" cy="113" r="2.5"/>
+      <circle cx="992" cy="17" r="2.5"/>
     </g>
-    <g>
-      <text x="968" y="118">00110101</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="7.8s" repeatCount="indefinite"/>
+
+    <!-- Animated moving dots -->
+    <g fill="#8C6FB0" opacity=".70">
+      <circle r="2.5">
+        <animateMotion path="M0 63 H146 V45 H240" dur="6.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="2.5">
+        <animateMotion path="M1200 64 H1066 V87 H970" dur="7.5s" repeatCount="indefinite"/>
+      </circle>
     </g>
-    <g opacity="0.42">
-      <text x="305" y="25">01</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; 3 0; 0 0" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <g opacity="0.42">
-      <text x="862" y="126">10</text>
-      <animateTransform attributeName="transform" type="translate" values="0 0; -3 0; 0 0" dur="6.8s" repeatCount="indefinite"/>
-    </g>
+
+    <!-- Name -->
+    <text x="600" y="75"
+          text-anchor="middle"
+          font-family="Georgia, 'Times New Roman', serif"
+          font-size="52"
+          font-weight="700"
+          fill="#2A2738"
+          letter-spacing=".5">Sudem Kırmız</text>
+
+    <!-- Soft pastel oval waves -->
+    <path d="M0 101 C180 91 335 93 485 103 C665 115 796 110 960 99 C1055 93 1130 95 1200 102 L1200 135 H0 Z"
+          fill="#BCA2D4" opacity=".35"/>
+
+    <path d="M0 116 C160 106 320 120 465 116 C655 110 795 105 955 116 C1065 124 1130 117 1200 111 L1200 135 H0 Z"
+          fill="#D4B5DC" opacity=".55"/>
   </g>
-
-  <!-- Circuit lines -->
-  <g fill="none" stroke="#A18CB6" stroke-width="1.5" opacity="0.28">
-    <path d="M0 68 H146 V49 H244"/>
-    <path d="M1200 79 H1066 V104 H968"/>
-    <path d="M92 170 V146 H212"/>
-    <path d="M1098 0 V18 H995"/>
-  </g>
-
-  <!-- Circuit points -->
-  <g fill="#9A82B2" opacity="0.55">
-    <circle cx="146" cy="49" r="3"/>
-    <circle cx="244" cy="49" r="3"/>
-    <circle cx="1066" cy="104" r="3"/>
-    <circle cx="968" cy="104" r="3"/>
-    <circle cx="212" cy="146" r="3"/>
-    <circle cx="995" cy="18" r="3"/>
-  </g>
-
-  <!-- Moving dots -->
-  <g fill="#8C6FB0" opacity="0.85">
-    <circle r="2.8">
-      <animateMotion path="M0 68 H146 V49 H244" dur="6.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="2.8">
-      <animateMotion path="M1200 79 H1066 V104 H968" dur="7.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Name -->
-  <text x="600" y="88"
-        text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="58"
-        font-weight="700"
-        fill="#2A2738"
-        letter-spacing="0.5">
-    Sudem Kırmız
-  </text>
-
-  <!-- Top soft wave layer -->
-  <path d="M0 123 
-           C120 136, 250 118, 380 126
-           C520 135, 640 118, 780 124
-           C910 129, 1040 146, 1200 134
-           L1200 170 L0 170 Z"
-        fill="url(#waveA)"/>
-
-  <!-- Front darker wave layer -->
-  <path d="M0 138
-           C130 126, 260 149, 410 141
-           C550 134, 700 153, 850 145
-           C980 138, 1085 126, 1200 137
-           L1200 170 L0 170 Z"
-        fill="url(#waveB)"/>
 </svg>
