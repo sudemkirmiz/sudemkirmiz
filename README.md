@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./assets/sudem-github-banner.svg" width="100%" alt="Sudem Kırmız" />
+<img src="https://raw.githubusercontent.com/sudemkirmiz/sudemkirmiz/main/assets/sudem-github-banner.svg?v=3" width="100%" alt="Sudem Kırmız" />
 
 <strong>Computer Engineering Student</strong>
 
