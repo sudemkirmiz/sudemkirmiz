@@ -1,12 +1,8 @@
 
 <div align="center">
-
 # Sudem Kırmız
-
 **Computer Engineering Student**
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1200&color=79A8F8&center=true&vCenter=true&width=550&height=45&lines=Exploring+AI+%26+NLP;Learning+Through+Research+%26+Code;Building+Intelligent+Applications" alt="Typing animation" />
-
 <br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sudem-k%C4%B1rm%C4%B1z-574836365/)
