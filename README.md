@@ -64,6 +64,9 @@ Fourth-year Computer Engineering student at **Bursa Uludağ University**, intere
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-<img src="./assets/assets/sudem-github-footer.svg" width="100%" alt="Decorative footer" />
+<img src="./assets/assets/sudem-github-footer.svg"
+     width="100%"
+     alt="Decorative footer" />
 
 </div>
+
